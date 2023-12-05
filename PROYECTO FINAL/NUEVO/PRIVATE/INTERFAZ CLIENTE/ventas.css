@@ -1,0 +1,152 @@
+.contenedor {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__principal {
+    width: 95%;
+    display: inline-table;
+    justify-content: center;
+}
+
+.contendor__buscar {
+    width: 100%;
+    height:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.dato {
+    width: 20%;
+    height: 90px;
+    margin-left: 2.5%;
+}
+
+.text__label {
+    width: 100%;
+    height: 40%;
+    padding: 0 9%;
+    padding-top: 2.5%;
+    color: #000;
+    font-size: 16px;
+}
+
+.text__input {
+    width: 100%;
+    height: 60%;
+    padding: 2% 9%;
+    display: flex;
+    align-items: center;
+}
+
+.text__input input {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #727272;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.text__input input:focus {
+    border-color: #00b19d;
+}
+
+.text__input input:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.text__input select {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #727272;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.text__input select:focus {
+    border-color: #00b19d;
+}
+
+.text__input select:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.contenedor__tabla {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px 66.2px;
+    background: #a6e5de;
+    font-size: 14px;
+    border-left: 1px solid white;
+}
+
+.id {
+    border-left: solid 1px #a6e5de;
+}
+
+.edit {
+    border-right: solid 1px #a6e5de;
+}
+
+td {
+    padding: 20px 20px;
+    font-size: 12px;
+    border: 1px solid #a6e5de;
+    text-align: center;
+
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: #ddf8f5;
+}
+
+span ion-icon {
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+
+span ion-icon:hover{
+    color: #00b19d;
+}
+
+.totales {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total {
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+.total label {
+    margin-left: 2%;
+}

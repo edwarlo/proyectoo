@@ -1,0 +1,433 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    transition: .8s;
+    box-shadow: 0px 0px 30px #999999;
+}
+
+body {
+    display: flex; 
+    justify-content: center;
+    background: #fff;
+}
+
+.navegacion a {
+    width: 40px;
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navegacion a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0 177 157 );
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navegacion a:hover::after {
+    transform: scaleX(1);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.caja__principal {
+    margin-top: 5%;
+    width: 100%;
+    background: #fcfcfc
+}
+.contenedores__subprin1 {
+    background: #00b19d;
+    width: 100%;
+    height: 250px;
+}
+
+.contenedores__subprin2 {
+    width: 100%;
+    height: 310px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__secund {
+    margin-top: -6%;
+    background: #fff;
+    margin-left: 3%;
+    padding: 2%;
+    width: 25%;
+    height: 350px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0px 0px 8px #858484;
+}
+
+.contenedor__quienes {
+    width: 90%;
+    height: 700px;
+    margin-left: 5%;
+}
+
+.contenedor__infoquienes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__infoquienes h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contenedor__infoquienes img {
+    width: 300px;
+}
+
+.info {
+    padding: 3% 2%;
+    width: 53%;
+    height: 85%;
+    margin-left: 8%;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.a__contac {
+    width: 220px;
+    height: 60px;
+    background: #00b19d;
+    font-style: normal;
+    margin-left: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #00b19d;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    transition: transform .3s;
+}
+
+.a__contac:hover {
+    transform: scale(1.1);
+}
+
+.contenedor__servicios {
+    margin-top: 1.5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 500px;
+}
+
+.contenedor__servicios h1 {
+    width: 100%;
+    height: 20%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido__servicios {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub__servicios {
+    margin-left: 3%;
+    width: 25%;
+    height: 80%;
+    background: #eeecec;
+    display: flex;
+    border: solid 1px #000;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sub__servicios:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    background: #fff;
+    box-shadow: 0px 0px 8px #d6d4d4;
+    border: solid 1px #fff;
+}
+
+.span {
+    padding-top: 12%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.span ion-icon {
+    width: 30px;
+    height: 30px;
+    color: #858484;
+}
+
+.sub__servicios:hover ion-icon {
+    color: #00b19d;
+}
+
+.info__sub {
+    width: 80%;
+    height: 100%;
+    padding: 2% 3%;
+}
+
+.info__sub h3 {
+    color: #858484;
+}
+
+.sub__servicios:hover .info__sub h3 {
+    color: #00b19d;
+}
+
+.info__sub p {
+    color: #999999;
+}
+
+.sub__servicios:hover .info__sub p {
+    color: #000;
+}
+
+.contenedor__oportunidad {
+    padding: 3% 5%;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 1800px;
+}
+
+.info__oportunidad {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo {
+    width: 50%;
+    height: 100%;
+}
+
+.parrafo h1 {
+    width: 100%;
+    height: 20%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo p {
+    margin-top: -25%;
+    padding: 0 3%;
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__oportunidad img {
+    margin-top: -15%;
+    margin-left: 5%;
+}
+
+.oportunidades {
+    margin-top: -4%;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub__opor {
+    padding: 1%;
+    margin-left: 2.5%;
+    width: 45%;
+    height: 95%;
+
+}
+
+.parte1{
+    width: 25%;
+    height: 40%;
+    background: #00b19d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    border-radius: 100%;
+}
+
+.parte2 {
+    padding: 2% 4%;
+    width: 100%;
+    height: 60%;
+}
+
+.parte2 h2 {
+    font-size: 30px;
+}
+
+.parte2 p {
+    font-size: 20px;
+}
+ 
+.nota {
+    width: 90%;
+    height: 400px;
+    margin-top: -8%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub__nota {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    background: #eeecec;
+    border: solid 1px #000;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sub__nota:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    background: #fff;
+    box-shadow: 0px 0px 8px #d6d4d4;
+    border: solid 1px #fff;
+}
+
+.span__nota {
+    padding-top: 5%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.span__nota ion-icon {
+    width: 50px;
+    height: 50px;
+    color: #858484;
+}
+
+.sub__nota:hover ion-icon {
+    color: red;
+}
+
+.info__nota {
+    width: 80%;
+    height: 100%;
+    padding: 2% 6%;
+}
+
+.info__nota h1 {
+    font-size: 30px;
+    color: #858484;
+}
+
+.sub__nota:hover h1 {
+    color: red;
+}
+
+.info__nota p {
+    font-size: 20px;
+    color: #999999;
+}
+
+.sub__nota:hover p {
+    color: #000;
+}
+
+.contenedor__3 {
+    margin-top: 2%;
+    padding: 5%;
+    background: #eeecec;
+    width: 100%;
+    height: 400px;
+}
+
+.info3 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__info3 {
+    text-align: center;
+    margin-left: 3%;
+    width: 20%;
+    height: 200px;
+}
+
+.contenedor__info3 p {
+    font-size: 18px;
+    text-align: center;
+    color: #adadad;
+}
+
+.contenedor__info3 .contenedor__img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    color: #adadad;
+    padding: 2.5%;
+}

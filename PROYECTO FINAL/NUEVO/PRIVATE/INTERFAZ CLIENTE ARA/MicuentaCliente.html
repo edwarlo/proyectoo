@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CARPETA CSS/fuente.css">
+    <link rel="stylesheet" href="interclien.css">
+    <link rel="stylesheet" href="MicuentaCliente.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Mi Cuenta</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+
+            <div class="nav__contenedor">
+                <a href="#menu" class="nav__menu">
+                    <span ><ion-icon name="menu-outline" class="nav__icono"></ion-icon></span>
+                </a>
+
+                <a href="#" class="nav__menu nav__menu--second">
+                    <span><ion-icon name="close-outline" class="nav__icono"></ion-icon></span>
+                </a>
+
+                <h1 class="nav__titulo">SOIFL - MI CUENTA</h1>
+
+                <ul class="dropdown" id="menu">
+                    <div class="nav__container">
+
+                        <ul class="lista">
+            
+                            <li class="lista__item lista__item--click">  
+                                <div class="lista__boton lista__boton--click">
+                                    <span class="lista__img"><ion-icon name="person"></ion-icon></span>
+                                    <a class="nav__link">Mi Información</a>
+                                    <span class="lista__arrow"><ion-icon name="chevron-forward"></ion-icon></span>
+                                </div> 
+                                <ul class="lista__mostrar">
+            
+                                    <li class="lista__inside">
+                                        <a href="MicuentaCliente.html" class="nav__link nav__link--inside">Mi Cuenta</a>
+                                    </li>
+            
+                                    <li class="lista__inside">
+                                        <a href="cam__contra__cliente.html" class="nav__link nav__link--inside">Cambiar Contraseña</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+            
+                            <li class="lista__item lista__item--click">
+                                <div class="lista__boton lista__boton--click">
+                                    <span class="lista__img"><ion-icon name="bag-handle"></ion-icon></span>
+                                    <a class="nav__link">Productos</a>
+                                    <span class="lista__arrow"><ion-icon name="chevron-forward"></ion-icon></span>
+                                </div>
+            
+                                <ul class="lista__mostrar">
+            
+                                    <li class="lista__inside">
+                                        <a href="CRUD CLIENTE/registroProducto.html" class="nav__link nav__link--inside">Registrar</a>
+                                    </li>
+            
+                                    <li class="lista__inside">
+                                        <a href="CRUD CLIENTE/actualizarProducto.html" class="nav__link nav__link--inside">Actualizar</a>
+                                    </li>
+            
+                                    <li class="lista__inside">
+                                        <a href="CRUD CLIENTE/eliminar.css" class="nav__link nav__link--inside">Eliminar</a>
+                                    </li>
+                                </ul>
+                            </li>
+            
+                            <li class="lista__item">  
+                                <div class="lista__boton">
+                                    <span class="lista__img"><ion-icon name="folder-open"></ion-icon></ion-icon></span>
+                                    <a href="CRUD CLIENTE/selectProducto.html" class="nav__link">Productos Existentes</a>
+                                </div> 
+                            </li>
+
+                            <li class="lista__item lista__item--click">
+                                <div class="lista__boton lista__boton--click">
+                                    <span class="lista__img"><ion-icon name="podium"></ion-icon></span>
+                                    <a href="ventas.html" class="nav__link">Ventas</a>
+                                </div>
+                            </li>
+                            <li class="lista__item lista__item--click">
+                                <div class="lista__boton lista__boton--click">
+                                    <span class="lista__img"><ion-icon name="cash"></ion-icon></span>
+                                    <a class="nav__link">Facturación</a>
+                                    <span class="lista__arrow"><ion-icon name="chevron-forward"></ion-icon></span>
+                                </div>
+            
+                                <ul class="lista__mostrar">
+            
+                                    <li class="lista__inside">
+                                        <a href="FACTURACION/egresos.html" class="nav__link nav__link--inside">Registrar Egreso</a>
+                                    </li>
+            
+                                    <li class="lista__inside">
+                                        <a href="FACTURACION/realizar__venta.html" class="nav__link nav__link--inside">Realizar Venta</a>
+                                    </li>
+            
+                                    <li class="lista__inside">
+                                        <a href="FACTURACION/movimientos.html" class="nav__link nav__link--inside">Todos los movimientos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lista__item lista__item--click">
+                                <div class="lista__boton lista__boton--click">
+                                    <span class="lista__img"><ion-icon name="people"></ion-icon></span>
+                                    <a href="contacto.html" class="nav__link">Contacto</a>
+                                </div>
+                            </li>
+            
+                            <li class="lista__item">  
+                                <div class="lista__boton">
+                                    <span class="lista__img"><ion-icon name="exit"></ion-icon></span>
+                                    <a href="#" class="nav__link">Cerrar Sesión</a>
+                                </div> 
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>       
+        </nav>
+    </header>
+
+    <div class="contenedor__principal">
+        <div class="contenedor__img">
+            <img class="imagen" src="../../IMG/Miacount.png">
+        </div>
+
+        <div class="contenedor__informacion">
+            <div class="contenedor__datos">
+                <h3>PRIMER NOMBRE</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>SEGUNDO NOMBRE</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>PRIMER APELLIDO</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>SEGUNDO APELLIDO</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>TIPO DOCUMENTO</h3>
+                <p>Mundo</p>
+            </div>
+        </div>
+
+        <div class="contenedor__informacion">
+            <div class="contenedor__datos">
+                <h3>NUMERO DOCUMENTO</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>CORREO</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>NUMERO TELEFONO</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>CONTRASEÑA</h3>
+                <p>Mundo</p>
+            </div>
+
+            <div class="contenedor__datos">
+                <h3>ROL</h3>
+                <p>Mundo</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="InteAdmi.JS"></script>
+</body>
+</html>

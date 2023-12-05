@@ -1,0 +1,204 @@
+.contenedor__actualizar {
+    margin-top: 2%;
+    width: 1050px;
+    height: 690px;
+    background: #fff;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 0px 0px 20px #d4d3d3;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.5%;
+    width: 100%;
+    font-size: 15px;
+}
+
+.actua {
+    margin-top: 1%;
+    width: 100%;
+    height: 590px;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+
+.dato {
+    width: 45%;
+    height: 90px;
+    margin-top: 2%;
+}
+
+.dato__referencia {
+    width: 45%;
+    height: 90px;
+    margin-top: 2%;
+}
+
+.dato__referencia .text__label {
+    width: 100%;
+    height: 40%;
+    padding: 0 9%;
+    padding-top: 2.5%;
+    color: #000;
+    font-size: 16px;
+}
+
+.text__input {
+    width: 100%;
+    height: 60%;
+    padding: 2% 9%;
+    display: flex;
+    align-items: center;
+}
+
+.dato__referencia .text__input input {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #727272;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.dato__referencia .text__input input:focus {
+    border-color: #00b19d;
+}
+
+.dato__referencia .text__input input:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.dato__referencia .text__input select {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #adadad;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.dato__referencia .text__input select:focus {
+    border-color: #00b19d;
+}
+
+.dato__referencia .text__input select:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.text__label {
+    width: 100%;
+    height: 40%;
+    padding: 0 9%;
+    padding-top: 2.5%;
+    color: #adadad;
+    font-size: 16px;
+}
+
+.text__input {
+    width: 100%;
+    height: 60%;
+    padding: 2% 9%;
+    display: flex;
+    align-items: center;
+}
+
+.text__input input {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #adadad;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+    color: #000;
+}
+
+.text__input input:focus {
+    border-color: #00b19d;
+}
+
+.text__input input:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.text__input select {
+    margin-left: -1px;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #adadad;
+    border-radius: 40px;
+    padding-left: 15px;
+    outline: none;
+    color: #000;
+}
+
+.text__input select:focus {
+    border-color: #00b19d;
+}
+
+.text__input select:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+#content2 {
+    margin-left: 62.4%;
+    margin-top: -10.2%;
+}
+
+.btn__busProduc {
+    font-size: 18px;
+    padding: 7px 16px;
+    margin-top: -30%;
+    margin-top: 5%;
+    margin-left: 72%;
+    border: solid 1px #00b19d;
+    border-radius: 15px;
+    background: #00b19d;
+    color: black;
+    z-index: 0;
+    font-weight: 0;
+    transition: all .3s ease;
+    visibility: visible;
+}
+
+.btn__busProduc:hover {
+    background: #00b19d;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.btn__busProduc:active {
+    transform: scale(1);
+}
+
+.btn__actuProduc {
+    position: absolute;
+    font-size: 18px;
+    padding: 7px 16px;
+    margin-top: -30%;
+    margin-top: 2.3%;
+    margin-left: -5.7%;
+    border: solid 1px #00b19d;
+    border-radius: 15px;
+    background: #00b19d;
+    color: black;
+    z-index: 0;
+    font-weight: 0;
+    transition: all .3s ease;
+    visibility: hidden;
+}
+
+.btn__actuProduc:hover {
+    background: #00b19d;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.btn__actuProduc:active {
+    transform: scale(1);
+}

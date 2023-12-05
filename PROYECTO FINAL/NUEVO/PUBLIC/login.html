@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CARPETA CSS/LoginN.css">
+    <link rel="stylesheet" href="../CARPETA CSS/fuente.css">
+    <link rel="shortcut icon" href="../IMG/logo1.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Ingreso</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../IMG/logo.png" alt="">
+        </div>
+        <nav class="navegacion">
+            <a href="index.html"><img src="../IMG/home.png" style="width: 20px; height: 20px;"> INICIO</a>
+            <a href="sobre.html"><img src="../IMG/sobre.png" style="width: 20px; height: 20px;"> SOBRE NOSOTROS</a>
+            <a href="contacto.html"><img src="../IMG/contacto.png" style="width: 20px; height: 20px;"> CONTACTENOS</a>
+            <a href="login.html">INICIAR SESION <img src="../IMG/login_icon_184018.png" style="width: 20px; height: 20px;"> </a>
+        </nav>
+    </header>
+
+    <div class="caja__principal">
+        <div class="encabezado__formulario">
+            Inicio sesion 
+        </div>
+        <div class="imagen__formulario">
+            <img src="../IMG/usuario.png" style="width: 100px; height: 100px;">
+        </div>
+        <div class="caja__formulario">
+            <form action="../PRIVATE/PHP/iniciosesion.php" method="post">
+                <div class="seleccion__rol">
+                </div>
+                <div class="entrada__texto">
+                    <input type="email" name="correo" id="correo" required placeholder=" ">
+                    <span><ion-icon name="mail"></ion-icon></span>
+                    <label>Correo</label>
+                </div>
+                <div class="entrada__texto">
+                    <input type="password" name="contraseña" id="contraseña" required placeholder=" ">
+                    <span><ion-icon name="lock-closed"></ion-icon></span>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar">
+                    <label>
+                        <input type="checkbox">Recuérdame
+                        <a href="contacto.HTML">¿Olvido contraseña?</a>
+                    </label>
+                </div>
+                <div class="registro">
+                    <p>¿No estas registrado? <a href="contacto.HTML">Regístrate</a></p>
+                </div>
+            </div>
+            <div class="boton">
+                <button class="btn__ingresar" name="ingresar">Iniciar sesión</button>
+            </div>
+            </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+.contenedor__eliminar {
+    margin-top: 2%;
+    width: 1050px;
+    height: 690px;
+    background: white;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 0px 0px 20px #d4d3d3;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.5%;
+    width: 100%;
+    font-size: 15px;
+}
+
+.elimi {
+    margin-top: 1%;
+    width: 100%;
+    height: 590px;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+
+.dato {
+    position: relative;
+    width: 45%;
+    height: 60px;
+    margin-top: 3%;
+}
+
+.dato__document {
+    position: relative;
+    width: 45%;
+    height: 60px;
+    margin-top: 3%;
+}
+
+.dato__document input {
+    width: 95%;
+    height: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    outline: none;
+}
+
+.dato__document label {
+    font-size: 15px;
+    position: absolute;
+    color: #adadad;
+    top: 30%;
+    left: 15px;
+    pointer-events: none;
+    padding: 0 13px;
+    transition: .4s;
+}
+
+
+.dato input {
+    width: 95%;
+    height: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1px solid #adadad;
+    background: transparent;
+    color: #000;
+    outline: none;
+}
+
+.dato label {
+    font-size: 15px;
+    position: absolute;
+    color: #adadad;
+    top: 30%;
+    left: 15px;
+    pointer-events: none;
+    padding: 0 13px;
+    transition: .4s;
+}
+
+.dato__document input:focus {
+    border-color: #00b19d;
+}
+
+.dato__document input:focus ~label {
+    transform: translateY(-126%);
+    color: #00b19d;
+    transition: .4s;
+    background: #fff;
+    font-size: 14px;
+}
+
+.dato__document input:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+
+.dato__document input:not(:placeholder-shown) ~label{
+    background: #fff;
+    font-size: 14px;
+    transform: translateY(-126%);
+    color: #00b19d;
+}
+
+.dato input:focus {
+    border-color: #00b19d;
+}
+
+.dato input:focus ~label {
+    transform: translateY(-126%);
+    color: #00b19d;
+    transition: .4s;
+    background: #fff;
+    font-size: 14px;
+}
+
+.dato input:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.dato input:not(:placeholder-shown) ~label{
+    background: #fff;
+    font-size: 14px;
+    transform: translateY(-126%);
+    color: #00b19d;
+}
+
+.select {
+    position: relative;
+    width: 45%;
+    height: 60px;
+    margin-top: 3%;
+}
+
+#content2 {
+    margin-left: 62.4%;
+    margin-top: -7.1%;
+}
+
+.btn__actualizar {
+    font-size: 18px;
+    padding: 7px 16px;
+    margin-top: 3%;
+    margin-left: 75%;
+    border: solid 1px #00b19d;
+    border-radius: 15px;
+    background: #00b19d;
+    color: black;
+    z-index: 0;
+    font-weight: 0;
+    transition: all .3s ease;
+}
+
+
+.select {
+    position: relative;
+    width: 45%;
+    height: 60px;
+    margin-top: 3%;
+}
+
+.select label {
+    font-size: 15px;
+    color: #00b19d;
+    padding: 0 22px;
+    top: 30%;
+}
+
+.select select {
+    width: 95%;
+    height: 60%;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.select select:focus {
+    border-color: #00b19d;
+}
+
+.select select:focus ~label {
+    color: #00b19d;
+    transition: .4s;
+    background: #fff;
+    font-size: 14px;
+}
+
+.select select:not(:placeholder-shown) {
+    border-color: #00b19d;
+}
+
+.select select:not(:placeholder-shown) ~label{
+    background: #fff;
+    font-size: 14px;
+    transform: translateY(-126%);
+    color: #00b19d;
+}
+
+.btn__actualizar:hover {
+    background: #00b19d;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.btn__actualizar:active {
+    transform: scale(1);
+}
